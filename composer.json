@@ -1,5 +1,5 @@
 {
-    "name": "devhausirl/laravelcollective-html",
+    "name": "laravelcollective/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5|^8.2",
+        "php": ">7.2|^8.2",
         "illuminate/http": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13",
         "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13",
         "illuminate/session": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13",
@@ -39,9 +39,6 @@
         ]
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "6.x-dev"
-        },
         "laravel": {
             "providers": [
                 "Collective\\Html\\HtmlServiceProvider"
@@ -52,7 +49,6 @@
             }
         }
     },
-    "minimum-stability": "dev",
-    "abandoned": "spatie/laravel-html",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
